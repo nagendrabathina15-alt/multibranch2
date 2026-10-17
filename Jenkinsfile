@@ -31,11 +31,11 @@ pipeline {
 
     post {
         success {
-            echo 'Java pipeline completed successfully!'
+            echo 'pr pipeline completed successfully!'
         }
 
         failure {
-            echo 'Pipeline failed. Check the Jenkins console output.'
+            echo 'pr failed. Check the Jenkins console output.'
         }
 
         always {
